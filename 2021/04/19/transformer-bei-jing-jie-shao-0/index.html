@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 浩的博客">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="Transformer 背景介绍, 浩的博客">
+    <meta name="description" content="Transformer 背景介绍论文地址：https://arxiv.org/pdf/1810.04805.pdf
+一，Transformer相关背景
+2018年10月，Google发出一篇论文《BERT: Pre-training of ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | 浩的博客</title>
+    <title>Transformer 背景介绍 | 浩的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -298,7 +300,7 @@
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        Transformer 背景介绍
                     </div>
                 </div>
             </div>
@@ -420,7 +422,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-04-14
+                    2021-04-19
                 </div>
 
                 
@@ -436,19 +438,21 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">$ hexo new "My New Post"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="Transformer-背景介绍"><a href="#Transformer-背景介绍" class="headerlink" title="Transformer 背景介绍"></a><strong>Transformer 背景介绍</strong></h1><p>论文地址：<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1810.04805.pdf">https://arxiv.org/pdf/1810.04805.pdf</a></p>
+<h2 id="一，Transformer相关背景"><a href="#一，Transformer相关背景" class="headerlink" title="一，Transformer相关背景"></a>一，Transformer相关背景</h2><ul>
+<li>2018年10月，Google发出一篇论文《BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding》, BERT模型横空出世, 并横扫NLP领域11项任务的最佳成绩!</li>
+<li>而在BERT中发挥重要作用的结构就是Transformer, 之后又相继出现XLNET，roBERT等模型击败了BERT，但是他们的核心没有变，仍然是：Transformer.</li>
+</ul>
+<h2 id="二，Transformer的优势"><a href="#二，Transformer的优势" class="headerlink" title="二，Transformer的优势"></a>二，Transformer的优势</h2><ol>
+<li><p>Transformer能够利用分布式GPU进行并训练，<span style="color:red;background:背景颜色;font-size:文字大小;font-family:字体;">提升模型训练效果</span>。</p>
+</li>
+<li><p><span style="color:red;background:背景颜色;font-size:文字大小;font-family:字体;">在分析预测更长的文本时, 捕捉间隔较长的语义关联效果更好</span>。</p>
+<p>下面为评测比较图</p>
+<p><img src="/2021/04/19/transformer-bei-jing-jie-shao-0/image-20210419190907778.png" alt="评测比较图"></p>
+</li>
+</ol>
+<h2 id="三，Transformer的当前市场情况"><a href="#三，Transformer的当前市场情况" class="headerlink" title="三，Transformer的当前市场情况"></a>三，Transformer的当前市场情况</h2><p><img src="/2021/04/19/transformer-bei-jing-jie-shao-0/3.png" alt="市场情况"></p>
+<p>​          其基本上可以看作是工业界的风向标, 市场空间自然不必多说！</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
             </div>
             <hr/>
@@ -611,9 +615,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Hello World》
+                    《Transformer 背景介绍》
                 </span> by
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2021/04/14/hello-world/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2021/04/19/transformer-bei-jing-jie-shao-0/" property="cc:attributionName"
                rel="cc:attributionURL">
                 浩
             </a> under
@@ -657,26 +661,35 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/04/19/transformer-bei-jing-jie-shao-0/">
+                <a href="/2021/04/22/markdown-shi-yong-fang-shi-hui-zong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Transformer 背景介绍">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Markdown-使用方式汇总">
                         
-                        <span class="card-title">Transformer 背景介绍</span>
+                        <span class="card-title">Markdown-使用方式汇总</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Transformer 背景介绍论文地址：https://arxiv.org/pdf/1810.04805.pdf
-一，Transformer相关背景
-2018年10月，Google发出一篇论文《BERT: Pre-training of 
+                            Markdown使用方法总结一，为文本加入颜色元素
+方法一
+
+​       使用格式
+$\textcolor{下面的颜色名称}{文本} 
+
+
+
+方法一
+
+​        使用格式
+&lt;span style='color:文字颜色;b
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-04-19
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-04-22
                         </span>
                         <span class="publish-author">
                             
@@ -693,7 +706,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2021/04/14/hello-world/">
@@ -723,7 +736,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

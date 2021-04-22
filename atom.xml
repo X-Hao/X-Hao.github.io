@@ -67,7 +67,7 @@
     <link href="http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/"/>
     <id>http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/</id>
     <published>2021-04-19T11:48:15.000Z</published>
-    <updated>2021-04-21T17:07:53.560Z</updated>
+    <updated>2021-04-22T13:45:12.807Z</updated>
     
     
       
@@ -80,6 +80,10 @@
     
     
     
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp，人工智能" scheme="http://example.com/tags/nlp%EF%BC%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
   </entry>
   

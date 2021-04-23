@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-23T07:39:01.680Z</updated>
+  <updated>2021-04-23T07:48:34.801Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/"/>
     <id>http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/</id>
     <published>2021-04-23T07:36:10.000Z</published>
-    <updated>2021-04-23T07:39:01.680Z</updated>
+    <updated>2021-04-23T07:48:34.801Z</updated>
     
     
       
@@ -37,7 +37,9 @@
     <category term="nlp" scheme="http://example.com/categories/nlp/"/>
     
     
-    <category term="nlp,fasttext," scheme="http://example.com/tags/nlp-fasttext/"/>
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="fasttext" scheme="http://example.com/tags/fasttext/"/>
     
   </entry>
   
@@ -46,7 +48,7 @@
     <link href="http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/"/>
     <id>http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/</id>
     <published>2021-04-23T07:12:39.000Z</published>
-    <updated>2021-04-23T07:21:39.684Z</updated>
+    <updated>2021-04-23T07:48:09.507Z</updated>
     
     
       
@@ -63,7 +65,11 @@
     <category term="nlp" scheme="http://example.com/categories/nlp/"/>
     
     
-    <category term="nlp，迁移学习，fasttext" scheme="http://example.com/tags/nlp%EF%BC%8C%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%EF%BC%8Cfasttext/"/>
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="fasttext" scheme="http://example.com/tags/fasttext/"/>
+    
+    <category term="迁移学习" scheme="http://example.com/tags/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -72,7 +78,7 @@
     <link href="http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/"/>
     <id>http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/</id>
     <published>2021-04-22T11:10:40.000Z</published>
-    <updated>2021-04-22T13:30:51.899Z</updated>
+    <updated>2021-04-23T07:49:22.257Z</updated>
     
     
       
@@ -88,7 +94,11 @@
     <category term="博客" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="hexo，Markdown，博客" scheme="http://example.com/tags/hexo%EF%BC%8CMarkdown%EF%BC%8C%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -97,7 +107,7 @@
     <link href="http://example.com/2021/04/22/markdown-shi-yong-fang-shi-hui-zong/"/>
     <id>http://example.com/2021/04/22/markdown-shi-yong-fang-shi-hui-zong/</id>
     <published>2021-04-21T16:18:42.000Z</published>
-    <updated>2021-04-21T17:05:01.123Z</updated>
+    <updated>2021-04-23T07:50:31.844Z</updated>
     
     
       
@@ -110,6 +120,12 @@
     
     
     
+    <category term="Markdown" scheme="http://example.com/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://example.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
     
   </entry>
   
@@ -118,7 +134,7 @@
     <link href="http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/"/>
     <id>http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/</id>
     <published>2021-04-19T11:48:15.000Z</published>
-    <updated>2021-04-22T13:46:26.058Z</updated>
+    <updated>2021-04-23T07:51:09.018Z</updated>
     
     
       
@@ -134,7 +150,11 @@
     <category term="nlp" scheme="http://example.com/categories/nlp/"/>
     
     
-    <category term="nlp，人工智能，Transformer" scheme="http://example.com/tags/nlp%EF%BC%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%8CTransformer/"/>
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
     
   </entry>
   

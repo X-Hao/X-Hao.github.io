@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-23T07:38:11.391Z</updated>
+  <updated>2021-04-23T07:39:01.680Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/"/>
     <id>http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/</id>
     <published>2021-04-23T07:36:10.000Z</published>
-    <updated>2021-04-23T07:38:11.391Z</updated>
+    <updated>2021-04-23T07:39:01.680Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
     
     
     <category term="nlp,fasttext," scheme="http://example.com/tags/nlp-fasttext/"/>

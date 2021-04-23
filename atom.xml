@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-22T13:30:51.899Z</updated>
+  <updated>2021-04-23T07:21:39.684Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>fasttext迁移学习</title>
+    <link href="http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/"/>
+    <id>http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/</id>
+    <published>2021-04-23T07:12:39.000Z</published>
+    <updated>2021-04-23T07:21:39.684Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2-1-迁移学习理论&quot;&gt;&lt;a href=&quot;#2-1-迁移学习理论&quot; class=&quot;headerlink&quot; title=&quot;2.1 迁移学习理论&quot;&gt;&lt;/a&gt;2.1 迁移学习理论&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;学习目标&quot;&gt;&lt;a href=&quot;#学习目标&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp，迁移学习，fasttext" scheme="http://example.com/tags/nlp%EF%BC%8C%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%EF%BC%8Cfasttext/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo+matery搭建个人博客踩坑记录</title>

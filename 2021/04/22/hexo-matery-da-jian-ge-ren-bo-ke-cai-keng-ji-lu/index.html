@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="hexo+matery搭建个人博客踩坑记录, 浩的博客">
     <meta name="description" content="​        本次hexo个人博客的搭建参考了大佬洪卫的博客，内容很全，但是在实际搭建中还是遇到了一些坑，这里对这些问题与解决方法进行记录。
-1. 代码块中行号与代码分离问题​        被这个问题困住了好久，始终不知道问题出现在哪">
+一. 代码块中行号与代码分离问题​        被这个问题困住了好久，始终不知道问题出现在哪">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -459,13 +459,13 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>​        本次hexo个人博客的搭建参考了大佬洪卫的<a target="_blank" rel="noopener" href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-24">博客</a>，内容很全，但是在实际搭建中还是遇到了一些坑，这里对这些问题与解决方法进行记录。</p>
-<h1 id="1-代码块中行号与代码分离问题"><a href="#1-代码块中行号与代码分离问题" class="headerlink" title="1. 代码块中行号与代码分离问题"></a>1. 代码块中行号与代码分离问题</h1><p>​        被这个问题困住了好久，始终不知道问题出现在哪里，如下图所示</p>
+<h1 id="一-代码块中行号与代码分离问题"><a href="#一-代码块中行号与代码分离问题" class="headerlink" title="一. 代码块中行号与代码分离问题"></a>一. 代码块中行号与代码分离问题</h1><p>​        被这个问题困住了好久，始终不知道问题出现在哪里，如下图所示</p>
 <p>​       <img src="/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/93a1674370c018548a3f2ffdccc2c820.png" alt="行号分离"></p>
 <p>​       问题解决方法：</p>
 <p>​       网上搜索无果后，打开matery主题的阅读文档看了一遍，发现在网上搜索到的一些解决方法是错误的，真后悔没有早点看文档啊。如下：</p>
 <p><img src="/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/image-20210422192958983.png" alt="image-20210422192958983"></p>
 <p>​     看到这里感觉应该是prism.css的适配问题，所以到了<a target="_blank" rel="noopener" href="https://prismjs.com/download.html#themes=prism-tomorrow&amp;languages=markup+css+clike+javascript+css-extras+http+java+json+json5+log+makefile+markdown+python+jsx+sql&amp;plugins=line-highlight+line-numbers+show-invisibles+file-highlight+show-language+highlight-keywords+inline-color+toolbar+copy-to-clipboard+download-button">prismjs官网</a>一探究竟，果然，想要适配不同的语言进行高亮显示，必须在官网自主对语言进行选择，然后下载定制的css文件以及js文件对项目中的原文件进行替换既可以了，到此问题解决。</p>
-<h1 id="2-Markdown文档部署之后图片不显示问题"><a href="#2-Markdown文档部署之后图片不显示问题" class="headerlink" title="2. Markdown文档部署之后图片不显示问题"></a>2. Markdown文档部署之后图片不显示问题</h1><p>这里参考了csdn中的博文<a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_43401436/article/details/107191688?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&amp;spm=1001.2101.3001.4242">《hexo博客中插入图片失败——解决思路及个人最终解决办法》</a></p>
+<h1 id="二-Markdown文档部署之后图片不显示问题"><a href="#二-Markdown文档部署之后图片不显示问题" class="headerlink" title="二. Markdown文档部署之后图片不显示问题"></a>二. Markdown文档部署之后图片不显示问题</h1><p>这里参考了csdn中的博文<a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_43401436/article/details/107191688?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&amp;spm=1001.2101.3001.4242">《hexo博客中插入图片失败——解决思路及个人最终解决办法》</a></p>
 <p>这里对解决步骤进行总结：</p>
 <ul>
 <li>将根目录下的_config.yml配置文件中的post_asset_folder中的选项设为true。（该设置可以使hexo new “文件名”创建文章时可以自动生成与文件名相同的文件夹）</li>
@@ -479,9 +479,10 @@
  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> https://github.com/CodeFalling/hexo-asset-image --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
-<li><p>在md文件中直接使用以下语法，直接上图片名称，会自动匹配到同名文件夹下的图片</p>
-<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token url"><span class="token operator">!</span>[<span class="token content">img</span>](<span class="token url">20200707222506636.png</span>)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>在md文件中直接使用以下语法，直接上图片名称，会自动匹配到同名文件夹下的图片</li>
 </ul>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token url"><span class="token operator">!</span>[<span class="token content">img</span>](<span class="token url">20200707222506636.png</span>)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 <p>在md中图片是无法显示的，只有在项目运行时博客中的文章图片才显示正常，所以本地编辑md文件时，需要将图片的文件夹加入到路径中才可以显示。至此该问题基本解决。</p>
 <h1 id="3-matery主题文件中的图标不显示问题"><a href="#3-matery主题文件中的图标不显示问题" class="headerlink" title="3. matery主题文件中的图标不显示问题"></a>3. matery主题文件中的图标不显示问题</h1><p>​       该主题是用的是<a target="_blank" rel="noopener" href="http://www.fontawesome.com.cn/">fontawesome</a>的矢量图，可能有些图标是付费的原因，导致博客中该样式无法加载，从官网下载免费的css样式对以前的样式进行替换，同时使用免费的图标对代码中的图标进行替换，运行之后，问题完美解决。</p>
 <p><img src="/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/image-20210422200535286.png" alt="fontawesome官网"></p>

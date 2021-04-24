@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-23T08:30:47.199Z</updated>
+  <updated>2021-04-24T16:06:08.663Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人工智能网站大全</title>
+    <link href="http://example.com/2021/04/25/ren-gong-zhi-neng-wang-zhan-da-quan/"/>
+    <id>http://example.com/2021/04/25/ren-gong-zhi-neng-wang-zhan-da-quan/</id>
+    <published>2021-04-24T16:01:36.000Z</published>
+    <updated>2021-04-24T16:06:08.663Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;转载于&lt;a href=&quot;https://github.com/howie6879/mlhub123&quot;&gt;https://github.com/howie6879/mlhub123&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;新闻资讯&quot;&gt;&lt;a href=&quot;#新闻资讯&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习网站" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transformer学习笔记总结</title>
+    <link href="http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/"/>
+    <id>http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/</id>
+    <published>2021-04-24T12:49:23.000Z</published>
+    <updated>2021-04-24T12:49:23.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>BERT,Transformer模型架构与详解</title>

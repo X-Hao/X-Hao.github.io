@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-26T11:57:54.818Z</updated>
+  <updated>2021-04-26T12:10:21.867Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,19 +21,31 @@
     <link href="http://example.com/2021/04/26/hmm-yu-crf-jing-dian-xu-lie-mo-xing/"/>
     <id>http://example.com/2021/04/26/hmm-yu-crf-jing-dian-xu-lie-mo-xing/</id>
     <published>2021-04-26T11:57:54.000Z</published>
-    <updated>2021-04-26T11:57:54.818Z</updated>
+    <updated>2021-04-26T12:10:21.867Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;HMM与CRF&quot;&gt;&lt;a href=&quot;#HMM与CRF&quot; class=&quot;headerlink&quot; title=&quot;HMM与CRF&quot;&gt;&lt;/a&gt;HMM与CRF&lt;/h1&gt;&lt;h2 id=&quot;认识HMM与CRF模型&quot;&gt;&lt;a href=&quot;#认识HMM与CRF模型&quot;</summary>
         
       
     
     
     
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="HMM" scheme="http://example.com/tags/HMM/"/>
+    
+    <category term="CRF" scheme="http://example.com/tags/CRF/"/>
+    
+    <category term="经典序列模型" scheme="http://example.com/tags/%E7%BB%8F%E5%85%B8%E5%BA%8F%E5%88%97%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="马尔科夫模型" scheme="http://example.com/tags/%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="条件随机场" scheme="http://example.com/tags/%E6%9D%A1%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%9C%BA/"/>
     
   </entry>
   

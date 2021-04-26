@@ -5,7 +5,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Transformer学习笔记总结, 浩的博客">
-    <meta name="description" content="Transformer学习笔记总结 | 浩的博客">
+    <meta name="description" content="
+每个单词被嵌入到大小为512的向量中
+编码器接受一个向量列表作为输入，首先将这些向量传到自注意力层，然后传递到前馈神经网络
+多头注意力下没个头维护不同的qkv，从而得到不同的qkv，所以最终将的到八个不同的z矩阵
+前馈全连接层需要的是一个">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -436,7 +440,15 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+                <ol>
+<li>每个单词被嵌入到大小为512的向量中</li>
+<li>编码器接受一个向量列表作为输入，首先将这些向量传到自注意力层，然后传递到前馈神经网络</li>
+<li>多头注意力下没个头维护不同的qkv，从而得到不同的qkv，所以最终将的到八个不同的z矩阵</li>
+<li>前馈全连接层需要的是一个单一的矩阵而不是八个矩阵，所以要想办法对这八个矩阵进行压缩</li>
+<li>所以这里将八个矩阵拼接，并将它们乘以一个另外的权重矩阵wo，如图</li>
+</ol>
+<p><img src="/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/image-20210424205002779.png" alt="image-20210424205002779"></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
             </div>
             <hr/>
 

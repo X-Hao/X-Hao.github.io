@@ -1530,6 +1530,10 @@ q*k = (q1k1+q2k2+......+q(d_k)k(d_k)), has mean 0 and variance d_k.<span aria-hi
                     <div class="summary block-with-text">
                         
                             
+每个单词被嵌入到大小为512的向量中
+编码器接受一个向量列表作为输入，首先将这些向量传到自注意力层，然后传递到前馈神经网络
+多头注意力下没个头维护不同的qkv，从而得到不同的qkv，所以最终将的到八个不同的z矩阵
+前馈全连接层需要的是一个
                         
                     </div>
                     <div class="publish-info">

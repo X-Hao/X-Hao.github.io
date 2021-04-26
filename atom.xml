@@ -49,14 +49,18 @@
     <link href="http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/"/>
     <id>http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/</id>
     <published>2021-04-24T12:49:23.000Z</published>
-    <updated>2021-04-24T12:49:23.764Z</updated>
+    <updated>2021-04-24T16:21:50.596Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;每个单词被嵌入到大小为512的向量中&lt;/li&gt;
+&lt;li&gt;编码器接受一个向量列表作为输入，首先将这些向量传到自注意力层，然后传递到前馈神经网络&lt;/li&gt;
+&lt;li&gt;多头注意力下没个头维护不同的qkv，从而得到不同的qkv，所以最终将的到八个不同的z矩阵&lt;/li&gt;
+&lt;</summary>
         
       
     
@@ -156,7 +160,7 @@
     <link href="http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/"/>
     <id>http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/</id>
     <published>2021-04-22T11:10:40.000Z</published>
-    <updated>2021-04-24T16:12:37.871Z</updated>
+    <updated>2021-04-24T16:21:38.723Z</updated>
     
     
       

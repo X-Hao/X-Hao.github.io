@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-26T12:12:03.629Z</updated>
+  <updated>2021-04-27T06:41:41.465Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Transformer（中）架构解析</title>
+    <link href="http://example.com/2021/04/27/transformer-jia-gou-jie-xi/"/>
+    <id>http://example.com/2021/04/27/transformer-jia-gou-jie-xi/</id>
+    <published>2021-04-27T06:33:50.000Z</published>
+    <updated>2021-04-27T06:41:41.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Transformer（中）架构解析&quot;&gt;&lt;a href=&quot;#Transformer（中）架构解析&quot; class=&quot;headerlink&quot; title=&quot;Transformer（中）架构解析&quot;&gt;&lt;/a&gt;Transformer（中）架构解析&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+  </entry>
   
   <entry>
     <title>HMM与CRF经典序列模型</title>
@@ -245,18 +274,18 @@
   </entry>
   
   <entry>
-    <title>Transformer 背景介绍</title>
+    <title>Transformer(上) 背景介绍</title>
     <link href="http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/"/>
     <id>http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/</id>
     <published>2021-04-19T11:48:15.000Z</published>
-    <updated>2021-04-23T07:51:09.018Z</updated>
+    <updated>2021-04-27T06:35:38.199Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Transformer-背景介绍&quot;&gt;&lt;a href=&quot;#Transformer-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;Transformer 背景介绍&quot;&gt;&lt;/a&gt;&lt;strong&gt;Transformer</summary>
+    <summary type="html">&lt;h1 id=&quot;Transformer（上）-背景介绍&quot;&gt;&lt;a href=&quot;#Transformer（上）-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;Transformer（上） 背景介绍&quot;&gt;&lt;/a&gt;&lt;strong&gt;Transformer（上）</summary>
         
       
     

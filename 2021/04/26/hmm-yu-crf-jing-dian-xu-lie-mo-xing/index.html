@@ -144,7 +144,7 @@ HMM(Hidden Markov Model), 中文称作隐含马尔科夫模型, 因俄国数学�
         <div class="logo-name">浩的博客</div>
         <div class="logo-desc">
             
-            一定要相信时间的复利，做积累的事情。时间的复利会带来人品复利，积累到一定阶段，你的收获呈指数级增长。所以，坚信这一点，并且一直修炼人性：克服贪欲与恐惧。
+            Never really desperate, only the lost of the soul.
             
         </div>
     </div>
@@ -295,6 +295,19 @@ HMM(Hidden Markov Model), 中文称作隐含马尔科夫模型, 因俄国数学�
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -1176,6 +1189,17 @@ $(function () {
     <script src="/js/matery.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', '');
+</script>
 
 
     

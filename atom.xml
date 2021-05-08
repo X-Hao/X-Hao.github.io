@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-27T06:41:41.465Z</updated>
+  <updated>2021-05-08T12:01:47.970Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Transformer（下）经典案例</title>
+    <link href="http://example.com/2021/05/08/transformer-jing-dian-an-li/"/>
+    <id>http://example.com/2021/05/08/transformer-jing-dian-an-li/</id>
+    <published>2021-05-08T11:59:16.000Z</published>
+    <updated>2021-05-08T12:01:47.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第三章-Transformer经典案例&quot;&gt;&lt;a href=&quot;#第三章-Transformer经典案例&quot; class=&quot;headerlink&quot; title=&quot;第三章:Transformer经典案例&quot;&gt;&lt;/a&gt;第三章:Transformer经典案例&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习的主要任务</title>
+    <link href="http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/"/>
+    <id>http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/</id>
+    <published>2021-05-02T15:33:19.000Z</published>
+    <updated>2021-05-02T16:37:26.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;机器学习&quot;&gt;&lt;a href=&quot;#机器学习&quot; class=&quot;headerlink&quot; title=&quot;机器学习&quot;&gt;&lt;/a&gt;机器学习&lt;/h1&gt;&lt;h2 id=&quot;一，机器学习的任务&quot;&gt;&lt;a href=&quot;#一，机器学习的任务&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Transformer（中）架构解析</title>
     <link href="http://example.com/2021/04/27/transformer-jia-gou-jie-xi/"/>
     <id>http://example.com/2021/04/27/transformer-jia-gou-jie-xi/</id>
     <published>2021-04-27T06:33:50.000Z</published>
-    <updated>2021-04-27T06:41:41.465Z</updated>
+    <updated>2021-05-08T11:56:53.788Z</updated>
     
     
       
@@ -278,7 +328,7 @@
     <link href="http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/"/>
     <id>http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/</id>
     <published>2021-04-19T11:48:15.000Z</published>
-    <updated>2021-04-27T06:35:38.199Z</updated>
+    <updated>2021-05-08T11:55:54.262Z</updated>
     
     
       
@@ -303,23 +353,31 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/04/14/hello-world/"/>
-    <id>http://example.com/2021/04/14/hello-world/</id>
-    <published>2021-04-14T07:47:12.996Z</published>
-    <updated>2021-04-21T11:27:24.855Z</updated>
+    <title>jupyter Notebook高级-魔法命令</title>
+    <link href="http://example.com/2021/04/03/jupyter-notebook-gao-ji-mo-fa-ming-ling/"/>
+    <id>http://example.com/2021/04/03/jupyter-notebook-gao-ji-mo-fa-ming-ling/</id>
+    <published>2021-04-03T05:19:42.000Z</published>
+    <updated>2021-05-03T07:17:02.916Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;jupyter-Notebook高级-魔法命令&quot;&gt;&lt;a href=&quot;#jupyter-Notebook高级-魔法命令&quot; class=&quot;headerlink&quot; title=&quot;jupyter Notebook高级-魔法命令&quot;&gt;&lt;/a&gt;jupyter</summary>
         
       
     
     
     
+    <category term="jupyter notebook" scheme="http://example.com/categories/jupyter-notebook/"/>
+    
+    
+    <category term="编译器" scheme="http://example.com/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="jupyter notebook" scheme="http://example.com/tags/jupyter-notebook/"/>
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
     
   </entry>
   

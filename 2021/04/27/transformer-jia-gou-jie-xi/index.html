@@ -3939,65 +3939,51 @@ if __name__ == '__main__':
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/04/27/transformer-jia-gou-jie-xi/">
+                <a href="/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Transformer（中）架构解析">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="机器学习的主要任务">
                         
-                        <span class="card-title">Transformer（中）架构解析</span>
+                        <span class="card-title">机器学习的主要任务</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Transformer（中）架构解析2.1 认识Transformer架构
-学习目标
-了解Transformer模型的作用.
-了解Transformer总体架构图中各个组成部分的名称.
+                            机器学习一，机器学习的任务
+
+这里的任务主要指监督学习
 
 
-Transformer模型的作用
-基于seq2se
+
+分类任务
+
+回归任务
+
+多标签分类（更加前沿）
+1.分类任务
+二分类（垃圾邮件判断）
+
+多分类（数字识别，图像识别，用户客户信用卡风险评级判断）
+很多复杂的问题也可以转换成多分类
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-04-27
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-05-02
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/nlp/" class="post-category" target="_blank">
-                                    nlp
-                                </a>
-                            
+                            <i class="fa fa-user fa-fw"></i>
+                            浩
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/nlp/" target="_blank">
-                        <span class="chip bg-color">nlp</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" target="_blank">
-                        <span class="chip bg-color">人工智能</span>
-                    </a>
-                    
-                    <a href="/tags/Transformer/" target="_blank">
-                        <span class="chip bg-color">Transformer</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -4378,6 +4364,36 @@ $(function () {
     
 
     <!-- 在线聊天工具  洪卫 shw2018 modify 2019.09.17 -->
+    
+        <script src="//code.tidio.co/ptej2liecskr3fej3odggk4nhkao25ei.js"></script>
+        <script>
+            $(document).ready(function () {
+                setInterval(change_Tidio, 50);
+
+                function change_Tidio() {
+                    var tidio = $("#tidio-chat iframe");
+                    if (tidio.css("display") == "block" && $(window).width() > 977) {
+                        document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && $(window).width() > 977) > 0 ? "-40px" : ($("div.toc-title").length && $(window).width() > 977) > 0 ? "85px" : "20px";
+                        document.getElementById("tidio-chat-iframe").style.right = "-10px";
+                        document.getElementById("tidio-chat-iframe").style.height = parseInt(tidio.css("height")) >=520 ? "520px" : tidio.css("height");
+                        document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                    } 
+                    else if (tidio.css("display") == "block" && $(window).width() > 601 && $(window).width() <992) {
+                        document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && 601 < $(window).width() < 992) > 0 ? "-40px" : "20px";
+                        document.getElementById("tidio-chat-iframe").style.right = "-10px";
+                        document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                    } 
+                    else if (tidio.css("display") == "block" && $(window).width() < 601 && parseInt(tidio.css("height")) < 230) {
+                        document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && $(window).width() < 601) > 0 ? "-10px" : "45px";
+                        document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                    }
+                    if (tidio.css("display") == "block" && $(window).width() < 601 && parseInt(tidio.css(
+                            "height")) >= 230) {
+                        document.getElementById("tidio-chat-iframe").style.zIndex = "998";
+                    }
+                }
+            });
+        </script>
     
 
 

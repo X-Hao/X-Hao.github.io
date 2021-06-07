@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-08T12:13:10.221Z</updated>
+  <updated>2021-05-29T01:29:31.016Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多模态-仇恨言论检测</title>
+    <link href="http://example.com/2021/05/29/duo-mo-tai-chou-hen-yan-lun-jian-ce/"/>
+    <id>http://example.com/2021/05/29/duo-mo-tai-chou-hen-yan-lun-jian-ce/</id>
+    <published>2021-05-29T01:29:30.000Z</published>
+    <updated>2021-05-29T01:29:31.016Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>k-近邻算法</title>
+    <link href="http://example.com/2021/05/24/k-jin-lin-suan-fa/"/>
+    <id>http://example.com/2021/05/24/k-jin-lin-suan-fa/</id>
+    <published>2021-05-24T12:26:12.000Z</published>
+    <updated>2021-05-28T14:58:58.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一-K近邻算法&quot;&gt;&lt;a href=&quot;#一-K近邻算法&quot; class=&quot;headerlink&quot; title=&quot;一. K近邻算法&quot;&gt;&lt;/a&gt;一. K近邻算法&lt;/h1&gt;&lt;p&gt;​       K Nearest</summary>
+        
+      
+    
+    
+    
+    <category term="机器学习" scheme="http://example.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="k-近邻算法" scheme="http://example.com/tags/k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>反向传播与梯度更新问题总结</title>
+    <link href="http://example.com/2021/05/24/fan-xiang-chuan-bo-yu-ti-du-geng-xin-wen-ti-zong-jie/"/>
+    <id>http://example.com/2021/05/24/fan-xiang-chuan-bo-yu-ti-du-geng-xin-wen-ti-zong-jie/</id>
+    <published>2021-05-24T09:06:56.000Z</published>
+    <updated>2021-05-25T00:00:39.263Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="深度学习" scheme="http://example.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="反向传播" scheme="http://example.com/tags/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/"/>
+    
+    <category term="梯度更新" scheme="http://example.com/tags/%E6%A2%AF%E5%BA%A6%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Transformer（下）经典案例</title>
@@ -50,7 +125,7 @@
     <link href="http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/"/>
     <id>http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/</id>
     <published>2021-05-02T15:33:19.000Z</published>
-    <updated>2021-05-02T16:37:26.342Z</updated>
+    <updated>2021-05-24T12:14:55.677Z</updated>
     
     
       
@@ -63,6 +138,12 @@
     
     
     
+    <category term="机器学习" scheme="http://example.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="机器学习的任务" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BB%BB%E5%8A%A1/"/>
     
   </entry>
   
@@ -378,6 +459,33 @@
     <category term="jupyter notebook" scheme="http://example.com/tags/jupyter-notebook/"/>
     
     <category term="python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pytorch如何使用GPU运行</title>
+    <link href="http://example.com/2021/04/01/pytorch-ru-he-shi-yong-gpu-yun-xing/"/>
+    <id>http://example.com/2021/04/01/pytorch-ru-he-shi-yong-gpu-yun-xing/</id>
+    <published>2021-04-01T08:13:43.000Z</published>
+    <updated>2021-05-24T08:57:18.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-Pytorch使用GPU单卡训练&quot;&gt;&lt;a href=&quot;#一-Pytorch使用GPU单卡训练&quot; class=&quot;headerlink&quot; title=&quot;一.Pytorch使用GPU单卡训练&quot;&gt;&lt;/a&gt;一.Pytorch使用GPU单卡训练&lt;/h2&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="深度学习" scheme="http://example.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="pytorch" scheme="http://example.com/tags/pytorch/"/>
+    
+    <category term="GPU" scheme="http://example.com/tags/GPU/"/>
     
   </entry>
   

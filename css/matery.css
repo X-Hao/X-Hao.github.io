@@ -624,6 +624,7 @@ header .go-back i {
 .video-player {
     margin-top: 10px;
     margin-bottom: 50px;
+    display:none;
 }
 
 .music,

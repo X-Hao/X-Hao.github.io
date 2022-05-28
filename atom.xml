@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>浩的博客</title>
+  
+  <subtitle>浩的博客</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-07-26T03:11:07.280Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>浩</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BERT模型架构与详解</title>
+    <link href="http://example.com/2021/07/21/bert/"/>
+    <id>http://example.com/2021/07/21/bert/</id>
+    <published>2021-07-21T08:27:09.000Z</published>
+    <updated>2021-07-26T03:11:07.280Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;BERT&quot;&gt;&lt;a href=&quot;#BERT&quot; class=&quot;headerlink&quot; title=&quot;BERT&quot;&gt;&lt;/a&gt;BERT&lt;/h1&gt;&lt;h2 id=&quot;1-简介&quot;&gt;&lt;a href=&quot;#1-简介&quot; class=&quot;headerlink&quot; title=&quot;1.</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="BERT" scheme="http://example.com/tags/BERT/"/>
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TextCNN模型架构与详解</title>
+    <link href="http://example.com/2021/07/21/textcnn/"/>
+    <id>http://example.com/2021/07/21/textcnn/</id>
+    <published>2021-07-21T08:27:09.000Z</published>
+    <updated>2021-07-26T07:24:24.014Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;TextCNN&quot;&gt;&lt;a href=&quot;#TextCNN&quot; class=&quot;headerlink&quot; title=&quot;TextCNN&quot;&gt;&lt;/a&gt;TextCNN&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Yoon Kim&lt;/strong&gt;在论文&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="TextCNN" scheme="http://example.com/tags/TextCNN/"/>
+    
+    <category term="文本分类" scheme="http://example.com/tags/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python垃圾回收机制</title>
+    <link href="http://example.com/2021/07/12/python-la-ji-hui-shou-ji-zhi/"/>
+    <id>http://example.com/2021/07/12/python-la-ji-hui-shou-ji-zhi/</id>
+    <published>2021-07-12T12:25:20.000Z</published>
+    <updated>2021-07-12T13:05:53.433Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;python垃圾回收机制&quot;&gt;&lt;a href=&quot;#python垃圾回收机制&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="python" scheme="http://example.com/categories/python/"/>
+    
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
+    
+    <category term="GC垃圾回收机制" scheme="http://example.com/tags/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多模态-仇恨言论检测</title>
+    <link href="http://example.com/2021/05/29/duo-mo-tai-chou-hen-yan-lun-jian-ce/"/>
+    <id>http://example.com/2021/05/29/duo-mo-tai-chou-hen-yan-lun-jian-ce/</id>
+    <published>2021-05-29T01:29:30.000Z</published>
+    <updated>2021-05-29T01:29:31.016Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>k-近邻算法</title>
+    <link href="http://example.com/2021/05/24/k-jin-lin-suan-fa/"/>
+    <id>http://example.com/2021/05/24/k-jin-lin-suan-fa/</id>
+    <published>2021-05-24T12:26:12.000Z</published>
+    <updated>2021-05-28T14:58:58.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一-K近邻算法&quot;&gt;&lt;a href=&quot;#一-K近邻算法&quot; class=&quot;headerlink&quot; title=&quot;一. K近邻算法&quot;&gt;&lt;/a&gt;一. K近邻算法&lt;/h1&gt;&lt;p&gt;​       K Nearest</summary>
+        
+      
+    
+    
+    
+    <category term="机器学习" scheme="http://example.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="k-近邻算法" scheme="http://example.com/tags/k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>反向传播与梯度更新问题总结</title>
+    <link href="http://example.com/2021/05/24/fan-xiang-chuan-bo-yu-ti-du-geng-xin-wen-ti-zong-jie/"/>
+    <id>http://example.com/2021/05/24/fan-xiang-chuan-bo-yu-ti-du-geng-xin-wen-ti-zong-jie/</id>
+    <published>2021-05-24T09:06:56.000Z</published>
+    <updated>2021-05-25T00:00:39.263Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/spoiler.css&quot; type=&quot;text/css&quot;&gt;&lt;script src=&quot;/js/spoiler.js&quot; type=&quot;text/javascript&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="深度学习" scheme="http://example.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="反向传播" scheme="http://example.com/tags/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/"/>
+    
+    <category term="梯度更新" scheme="http://example.com/tags/%E6%A2%AF%E5%BA%A6%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transformer（下）经典案例</title>
+    <link href="http://example.com/2021/05/08/transformer-jing-dian-an-li/"/>
+    <id>http://example.com/2021/05/08/transformer-jing-dian-an-li/</id>
+    <published>2021-05-08T11:59:16.000Z</published>
+    <updated>2021-05-08T12:13:10.221Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Transformer（下）经典案例&quot;&gt;&lt;a href=&quot;#Transformer（下）经典案例&quot; class=&quot;headerlink&quot; title=&quot;Transformer（下）经典案例&quot;&gt;&lt;/a&gt;Transformer（下）经典案例&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习的主要任务</title>
+    <link href="http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/"/>
+    <id>http://example.com/2021/05/02/ji-qi-xue-xi-de-zhu-yao-ren-wu/</id>
+    <published>2021-05-02T15:33:19.000Z</published>
+    <updated>2021-05-24T12:14:55.677Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;机器学习&quot;&gt;&lt;a href=&quot;#机器学习&quot; class=&quot;headerlink&quot; title=&quot;机器学习&quot;&gt;&lt;/a&gt;机器学习&lt;/h1&gt;&lt;h2 id=&quot;一，机器学习的任务&quot;&gt;&lt;a href=&quot;#一，机器学习的任务&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="机器学习" scheme="http://example.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="机器学习的任务" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BB%BB%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transformer（中）架构解析</title>
+    <link href="http://example.com/2021/04/27/transformer-jia-gou-jie-xi/"/>
+    <id>http://example.com/2021/04/27/transformer-jia-gou-jie-xi/</id>
+    <published>2021-04-27T06:33:50.000Z</published>
+    <updated>2021-05-08T11:56:53.788Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Transformer（中）架构解析&quot;&gt;&lt;a href=&quot;#Transformer（中）架构解析&quot; class=&quot;headerlink&quot; title=&quot;Transformer（中）架构解析&quot;&gt;&lt;/a&gt;Transformer（中）架构解析&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HMM与CRF经典序列模型</title>
+    <link href="http://example.com/2021/04/26/hmm-yu-crf-jing-dian-xu-lie-mo-xing/"/>
+    <id>http://example.com/2021/04/26/hmm-yu-crf-jing-dian-xu-lie-mo-xing/</id>
+    <published>2021-04-26T11:57:54.000Z</published>
+    <updated>2021-06-15T14:18:23.713Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;HMM与CRF&quot;&gt;&lt;a href=&quot;#HMM与CRF&quot; class=&quot;headerlink&quot; title=&quot;HMM与CRF&quot;&gt;&lt;/a&gt;HMM与CRF&lt;/h1&gt;&lt;h2 id=&quot;认识HMM与CRF模型&quot;&gt;&lt;a href=&quot;#认识HMM与CRF模型&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="HMM" scheme="http://example.com/tags/HMM/"/>
+    
+    <category term="CRF" scheme="http://example.com/tags/CRF/"/>
+    
+    <category term="经典序列模型" scheme="http://example.com/tags/%E7%BB%8F%E5%85%B8%E5%BA%8F%E5%88%97%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="马尔科夫模型" scheme="http://example.com/tags/%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="条件随机场" scheme="http://example.com/tags/%E6%9D%A1%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%9C%BA/"/>
+    
+    <category term="机器学习" scheme="http://example.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人工智能网站大全</title>
+    <link href="http://example.com/2021/04/25/ren-gong-zhi-neng-wang-zhan-da-quan/"/>
+    <id>http://example.com/2021/04/25/ren-gong-zhi-neng-wang-zhan-da-quan/</id>
+    <published>2021-04-24T16:01:36.000Z</published>
+    <updated>2021-05-02T05:28:06.923Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;转载于&lt;a href=&quot;https://github.com/howie6879/mlhub123&quot;&gt;https://github.com/howie6879/mlhub123&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;新闻资讯&quot;&gt;&lt;a href=&quot;#新闻资讯&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习网站" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transformer学习笔记总结</title>
+    <link href="http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/"/>
+    <id>http://example.com/2021/04/24/transformer-xue-xi-bi-ji-zong-jie/</id>
+    <published>2021-04-24T12:49:23.000Z</published>
+    <updated>2021-04-24T16:21:50.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;每个单词被嵌入到大小为512的向量中&lt;/li&gt;
+&lt;li&gt;编码器接受一个向量列表作为输入，首先将这些向量传到自注意力层，然后传递到前馈神经网络&lt;/li&gt;
+&lt;li&gt;多头注意力下没个头维护不同的qkv，从而得到不同的qkv，所以最终将的到八个不同的z矩阵&lt;/li&gt;
+&lt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BERT,Transformer模型架构与详解</title>
+    <link href="http://example.com/2021/04/23/bert-transformer-mo-xing-jia-gou-yu-xiang-jie/"/>
+    <id>http://example.com/2021/04/23/bert-transformer-mo-xing-jia-gou-yu-xiang-jie/</id>
+    <published>2021-04-23T08:27:09.000Z</published>
+    <updated>2021-04-24T11:54:13.544Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-BERT-Transformer的模型架构与详解&quot;&gt;&lt;a href=&quot;#1-BERT-Transformer的模型架构与详解&quot; class=&quot;headerlink&quot; title=&quot;1. BERT,Transformer的模型架构与详解&quot;&gt;&lt;/a&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="BERT" scheme="http://example.com/tags/BERT/"/>
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fasttext使用教程</title>
+    <link href="http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/"/>
+    <id>http://example.com/2021/04/23/fasttext-shi-yong-jiao-cheng/</id>
+    <published>2021-04-23T07:36:10.000Z</published>
+    <updated>2021-04-23T07:48:34.801Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一章-fasttext工具的使用&quot;&gt;&lt;a href=&quot;#第一章-fasttext工具的使用&quot; class=&quot;headerlink&quot; title=&quot;第一章:fasttext工具的使用&quot;&gt;&lt;/a&gt;第一章:fasttext工具的使用&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="fasttext" scheme="http://example.com/tags/fasttext/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fasttext迁移学习</title>
+    <link href="http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/"/>
+    <id>http://example.com/2021/04/23/fasttext-qian-yi-xue-xi/</id>
+    <published>2021-04-23T07:12:39.000Z</published>
+    <updated>2021-04-23T07:48:09.507Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2-1-迁移学习理论&quot;&gt;&lt;a href=&quot;#2-1-迁移学习理论&quot; class=&quot;headerlink&quot; title=&quot;2.1 迁移学习理论&quot;&gt;&lt;/a&gt;2.1 迁移学习理论&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;学习目标&quot;&gt;&lt;a href=&quot;#学习目标&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="fasttext" scheme="http://example.com/tags/fasttext/"/>
+    
+    <category term="迁移学习" scheme="http://example.com/tags/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+matery搭建个人博客踩坑记录</title>
+    <link href="http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/"/>
+    <id>http://example.com/2021/04/22/hexo-matery-da-jian-ge-ren-bo-ke-cai-keng-ji-lu/</id>
+    <published>2021-04-22T11:10:40.000Z</published>
+    <updated>2021-06-07T14:34:34.809Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​        本次hexo个人博客的搭建参考了大佬洪卫的&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="博客" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown-使用方式汇总</title>
+    <link href="http://example.com/2021/04/22/markdown-shi-yong-fang-shi-hui-zong/"/>
+    <id>http://example.com/2021/04/22/markdown-shi-yong-fang-shi-hui-zong/</id>
+    <published>2021-04-21T16:18:42.000Z</published>
+    <updated>2021-04-24T16:15:16.437Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Markdown使用方法总结&quot;&gt;&lt;a href=&quot;#Markdown使用方法总结&quot; class=&quot;headerlink&quot; title=&quot;Markdown使用方法总结&quot;&gt;&lt;/a&gt;Markdown使用方法总结&lt;/h1&gt;&lt;h2 id=&quot;一，为文本加入颜色元素&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://example.com/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://example.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transformer(上) 背景介绍</title>
+    <link href="http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/"/>
+    <id>http://example.com/2021/04/19/transformer-bei-jing-jie-shao-0/</id>
+    <published>2021-04-19T11:48:15.000Z</published>
+    <updated>2021-05-08T11:55:54.262Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Transformer（上）-背景介绍&quot;&gt;&lt;a href=&quot;#Transformer（上）-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;Transformer（上） 背景介绍&quot;&gt;&lt;/a&gt;&lt;strong&gt;Transformer（上）</summary>
+        
+      
+    
+    
+    
+    <category term="nlp" scheme="http://example.com/categories/nlp/"/>
+    
+    
+    <category term="Transformer" scheme="http://example.com/tags/Transformer/"/>
+    
+    <category term="nlp" scheme="http://example.com/tags/nlp/"/>
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jupyter Notebook高级-魔法命令</title>
+    <link href="http://example.com/2021/04/03/jupyter-notebook-gao-ji-mo-fa-ming-ling/"/>
+    <id>http://example.com/2021/04/03/jupyter-notebook-gao-ji-mo-fa-ming-ling/</id>
+    <published>2021-04-03T05:19:42.000Z</published>
+    <updated>2021-05-03T07:17:02.916Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;jupyter-Notebook高级-魔法命令&quot;&gt;&lt;a href=&quot;#jupyter-Notebook高级-魔法命令&quot; class=&quot;headerlink&quot; title=&quot;jupyter Notebook高级-魔法命令&quot;&gt;&lt;/a&gt;jupyter</summary>
+        
+      
+    
+    
+    
+    <category term="jupyter notebook" scheme="http://example.com/categories/jupyter-notebook/"/>
+    
+    
+    <category term="编译器" scheme="http://example.com/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="jupyter notebook" scheme="http://example.com/tags/jupyter-notebook/"/>
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pytorch使用GPU运行以及优化方式</title>
+    <link href="http://example.com/2021/04/01/pytorch-ru-he-shi-yong-gpu-yun-xing/"/>
+    <id>http://example.com/2021/04/01/pytorch-ru-he-shi-yong-gpu-yun-xing/</id>
+    <published>2021-04-01T08:13:43.000Z</published>
+    <updated>2021-06-21T08:02:31.807Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;pytorch使用GPU运行以及优化方式&quot;&gt;&lt;a href=&quot;#pytorch使用GPU运行以及优化方式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="深度学习" scheme="http://example.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="pytorch" scheme="http://example.com/tags/pytorch/"/>
+    
+    <category term="GPU" scheme="http://example.com/tags/GPU/"/>
+    
+  </entry>
+  
+</feed>
